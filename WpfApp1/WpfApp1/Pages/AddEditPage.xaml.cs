@@ -16,28 +16,33 @@ using System.Windows.Shapes;
 namespace WpfApp1.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для ListViewPage.xaml
+    /// Логика взаимодействия для AddEditPage.xaml
     /// </summary>
-    public partial class ListViewPage : Page
+    public partial class AddEditPage : Page
     {
-        public ListViewPage()
+        public AddEditPage()
         {
             InitializeComponent();
-            Init();
         }
 
-        private void Init()
+        private void RoleComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            ListViewBox.ItemsSource = Data.KT04Entities.GetContext().Users.ToList();
+
         }
-        private void EditButton_Click(object sender, RoutedEventArgs e)
+
+        private void GenderComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Classes.Manager.MainFrame.Navigate(new Pages.AddEditPage());
+
         }
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            Classes.Manager.MainFrame.Navigate(new Pages.AddEditPage());
+
+        }
+
+        private void EditButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

@@ -23,3 +23,5 @@ C:\Users\comcuru\Desktop\Раков Никита ИСП321 СУБД KT04\WpfApp1
 C:\Users\comcuru\Desktop\Раков Никита ИСП321 СУБД KT04\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
 C:\Users\comcuru\Desktop\Раков Никита ИСП321 СУБД KT04\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\comcuru\Desktop\Раков Никита ИСП321 СУБД KT04\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\comcuru\Desktop\Раков Никита ИСП321 СУБД KT04\WpfApp1\WpfApp1\obj\Debug\Pages\AddEditPage.g.cs
+C:\Users\comcuru\Desktop\Раков Никита ИСП321 СУБД KT04\WpfApp1\WpfApp1\obj\Debug\Pages\AddEditPage.baml
